@@ -38,14 +38,14 @@ We welcome contributions to enhance the Gemini Chatbot Interface! Here’s how y
 1. **Fork the Repository**: Click on the "Fork" button at the top right of this page.
 2. **Clone Your Fork**: Clone your forked repository to your local machine.
    ```bash
-   git clone https://github.com/AlexKalll/Advanced-Gemini-Powered-ChatGPT.git
+   git clone https://github.com/AlexKalll/Gemini-Chatbot-Version-Two.git
 
 ### Usage
 
 Follow these steps to set up and run the project:
 - **Initially Clone the repository:**
    ```bash
-   git clone https://github.com/AlexKalll/Advanced-Gemini-Powered-ChatGPT.git
+   git clone https://github.com/AlexKalll/Gemini-Chatbot-Version-Two.git
 
 1. **Create a virtual environment:**
    ```bash
