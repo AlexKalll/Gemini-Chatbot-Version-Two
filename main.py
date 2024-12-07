@@ -30,13 +30,14 @@ if "chat_history" not in st.session_state:
     st.session_state['chat_history'] = []
 
 # create input field for user questions
-user_quest = st.text_input('Enter Your Question:', placeholder = 'Type here...' )
-btn = st.button('Send')
+with st.form(key = "input", clear_on_submit = True):
+    user_quest = st.text_input('Enter your question in the space provided below, then click the *send* button.', placeholder = 'Type here...' )
+    submit_button = st.form_submit_button('Send')
 
-if btn and not user_quest:
+if submit_button and not user_quest:
     st.info(f'Please enter your question and click the **Send** button below')
 
-if user_quest and btn:
+if user_quest and submit_button:
     # add user question to the chat_history
     st.session_state.chat_history.append(("You: ", user_quest))
 
